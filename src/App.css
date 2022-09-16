@@ -51,3 +51,26 @@ td {
   background-color: lightgrey;
   border: 1px solid black;
 }
+
+th {
+  color: black;
+  background-color: rgb(234, 135, 44);
+}
+
+button {
+  /*font-weight: bold;*/
+  font-size: medium;
+}
+
+.total-row {
+  font-weight: bold;
+  background-color: #7191e1;
+}
+
+caption {
+  font-weight: bold;
+}
+
+table {
+  min-width: 30%;
+}

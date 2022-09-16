@@ -11,8 +11,8 @@ export function TotalRow(props: TotalRowPropsType) {
     return (
 
             <tr>
-                <td>{"Total: " + quantity}</td>
-                <td>{"Average power: " + averagePower}</td>
+                <td className={'total-row'}>{"Total: " + quantity}</td>
+                <td className={'total-row'}>{"Average power: " + averagePower}</td>
             </tr>
 
 )

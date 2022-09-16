@@ -23,7 +23,11 @@ export function Table() {
 
     let [rows, setRows] = useState(
         [
-            {model: "Audi S4", power: 265}
+            {model: "Audi S4", power: 265},
+            {model: "BMW M3", power: 321},
+            {model: "Volvo S60R", power: 300},
+            {model: "Alfa-Romeo 156GTA", power: 250},
+
         ]
     )
 
@@ -33,6 +37,7 @@ export function Table() {
     return (
         <div className={'main'}>
             <table border={1}>
+                <caption>Class D compare</caption>
                 <th>Model</th>
                 <th>Power (hp)</th>
 
