@@ -45,3 +45,9 @@
   align-items: center;
 
 }
+
+td {
+  color: black;
+  background-color: lightgrey;
+  border: 1px solid black;
+}

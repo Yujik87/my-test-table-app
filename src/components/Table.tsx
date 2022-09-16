@@ -62,7 +62,7 @@ export function Table() {
             <div className={'button-block'}>
                 <button onClick={() => setRows([])}>Clear table</button>
 
-                <button onClick={() => cancelLastAction(rows)}>Previous action</button>
+                <button onClick={() => cancelLastAction(rows)}>Cancel last action</button>
 
                 <button onClick={() => {
                     addNewRow(model, Number(power));
